@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;500;700&display=swap");
+:root {
+  --red: #fb5849;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+main,
+section {
+  width: 100%;
+}
+/* Header style */
+header#header {
+  width: 100%;
+  height: 70vh;
+  background-image: url("https://images.unsplash.com/photo-1461151304267-38535e780c79?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1190&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+}
+section .show-header {
+  height: 56.25vw;
+}
+section .show-header-shadow {
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(0, 0, 0, 0.2) 60%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+}
+section .show-header-title {
+  height: calc(49.8% * 9 / 16);
+  background: radial-gradient(at top left, #000000e3 30%, transparent 80%);
+}
+.show-content-star {
+  width: 56px;
+  height: 56px;
+}
+.show-header-star {
+  background: linear-gradient(
+    to top,
+    transparent 20%,
+    rgba(0, 0, 0, 0.7) 100%,
+    rgba(0, 0, 0, 0.2) 100%
+  );
+  height: calc(49.8% * 9 / 16);
+}
+header .header {
+  background: #0000009a;
+}
+
+/* Footer style */
+footer {
+  background: var(--red);
+}
